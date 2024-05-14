@@ -1,4 +1,5 @@
-
+[1] Branch name: change_type-JIRA-123-brief-summary
+[2] Commit message title: [JIRA-123] change_type: brief summary goes here
 
 {
   "$schema": "./index.spec.json",
