@@ -5,7 +5,13 @@ git checkout -b ＜new-branch＞
 git branch -d <branch_name>
 
 # Update working branch with main code
-git fetch origin
+# On bottom-left, switch branch to main
+# Click reload button right beside
+# Switch branch to feature-branch
+git merge main
+# Resolve conflicts
+git commit -m "Merge conflicts"
+git push
 
 # Pushing changes to main
 git push
