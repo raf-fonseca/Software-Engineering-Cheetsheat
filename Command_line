@@ -12,6 +12,7 @@ git merge main
 # Resolve conflicts
 git commit -m "Merge conflicts"
 git push
+# Refer here: https://www.youtube.com/watch?v=YINamUvOYhA
 
 # Pushing changes to main
 git push
