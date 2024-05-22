@@ -6,3 +6,7 @@ git branch -d <branch_name>
 
 # Update working branch with main code
 git fetch origin
+
+# Pushing changes to main
+git push
+git push --set-upstream origin <branch_name>
