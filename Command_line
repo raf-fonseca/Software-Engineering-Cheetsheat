@@ -17,3 +17,7 @@ git push
 # Pushing changes to main
 git push
 git push --set-upstream origin <branch_name>
+
+# 10K commits issue:
+rafael/.git DELETE THIS 
+COMMAND + SHIFT + G to show hidden files
