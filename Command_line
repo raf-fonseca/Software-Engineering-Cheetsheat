@@ -2,7 +2,7 @@
 git checkout -b ＜new-branch＞
 
 # Delete a branch
-git branch -d <branch_name>
+git branch -D <branch_name>
 
 # Update working branch with main code
 # On bottom-left, switch branch to main
