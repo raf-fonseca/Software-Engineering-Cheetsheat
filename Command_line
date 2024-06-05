@@ -21,3 +21,6 @@ git push --set-upstream origin <branch_name>
 # 10K commits issue:
 rafael/.git DELETE THIS 
 COMMAND + SHIFT + G to show hidden files
+
+#Checking what has been installed from pip
+pip list
