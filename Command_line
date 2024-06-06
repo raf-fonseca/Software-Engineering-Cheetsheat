@@ -5,14 +5,14 @@ git checkout -b ＜new-branch＞
 git branch -D <branch_name>
 
 # Update working branch with main code
-# On bottom-left, switch branch to main
-# Click reload button right beside
-# Switch branch to feature-branch
+- On bottom-left, switch branch to main
+- Click reload button right beside
+- Switch branch to feature-branch
 git merge main
-# Resolve conflicts
+- Resolve conflicts
 git commit -m "Merge conflicts"
 git push
-# Refer here: https://www.youtube.com/watch?v=YINamUvOYhA
+- Refer here: https://www.youtube.com/watch?v=YINamUvOYhA
 
 # Pushing changes to main
 git push
@@ -22,5 +22,11 @@ git push --set-upstream origin <branch_name>
 rafael/.git DELETE THIS 
 COMMAND + SHIFT + G to show hidden files
 
-#Checking what has been installed from pip
+# Checking what has been installed from pip
 pip list
+
+# Forking repositories and making own changes
+- Visit the repository and click fork 
+- Visit your own repository and click the 'Code' button
+- Copy URL
+git clone <URL>
