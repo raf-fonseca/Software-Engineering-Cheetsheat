@@ -30,3 +30,9 @@ pip list
 - Visit your own repository and click the 'Code' button
 - Copy URL
 git clone <URL>
+
+# Stashing changes
+git add .
+git stash 
+git stash pop
+- This way if there are any changes to the code, you can stash your changes and rebase
