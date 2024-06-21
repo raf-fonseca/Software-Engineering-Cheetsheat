@@ -36,3 +36,13 @@ git add .
 git stash 
 git stash pop
 - This way if there are any changes to the code, you can stash your changes and rebase
+
+# Using pytest
+- Make sure you have a pytest.ini file and have this in it:
+[pytest]
+asyncio_mode = auto
+log_cli = true
+- Then run the following code:
+pytest <test file>
+
+
