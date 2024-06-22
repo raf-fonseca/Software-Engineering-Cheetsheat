@@ -45,4 +45,7 @@ log_cli = true
 - Then run the following code:
 pytest <test file>
 
+# Error handling (to identify where exactly the code is going wrong)
+except Exception as <error_variable>
+logging.error("An error occured while doing this: {error_variable}")
 
