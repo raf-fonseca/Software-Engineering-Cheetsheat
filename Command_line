@@ -31,6 +31,11 @@ pip list
 - Copy URL
 git clone <URL>
 
+# Cloning
+- Create a new repo
+- navigate to its file on Vscode
+git clone <URL of repo you want to clone>
+
 # Stashing changes
 git add .
 git stash 
